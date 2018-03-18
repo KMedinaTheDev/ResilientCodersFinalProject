@@ -1,0 +1,76 @@
+* {
+     -moz-box-sizing: border-box; /* Firexfox */
+     -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
+     box-sizing: border-box; /* IE */
+
+}
+body{
+  background: url("images/underbridge.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+html{
+  border-top: 3em solid white;
+  border-bottom: 4em solid white;
+}
+
+h1{
+  float: left;
+  font-size: 7em;
+  width:25%;
+  margin-left: 1%;
+  margin-top: 5%;
+  text-decoration: underline;
+  border-bottom: 1px solid white;
+}
+h5{
+  float: left;
+  font-size: 2em;
+  font-weight: bold;
+  margin-left: 47%;
+  margin-top: 6%;
+  color:rgb(217, 5, 5);
+}
+
+img{
+  border: 2px solid white;
+  float: left;
+  border-radius: 5%;
+}
+ a{
+   margin-left: 9%;
+  font-size: 5em;
+  color: rgba(42, 45, 42, 0.66);
+}
+
+
+.top1{
+  height: 6em;
+  width: 6em;
+  margin-top: 23%;
+  margin-left:17.7%;
+}
+.top3{
+  float: left;
+  height: 15em;
+  width: 15em;
+  margin-top: 20%;
+  margin-left: -2%;
+}
+
+.top2{
+  height:21em;
+  width: 20em;
+  margin: 1% 10% 0 -4%;
+}
+
+
+
+.btm{
+  height: 100px;
+  width: 100px;
+  margin-top: -3%;
+  margin-left: 32%;
+  background: black;
+}
