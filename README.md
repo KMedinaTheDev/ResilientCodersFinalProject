@@ -1,4 +1,4 @@
-![ In The Streets Of: Boston ](images/in-soLP.png)
+![ In The Streets Of: Boston ](images/it-soLP.png)
 
 ## This Project:
 
