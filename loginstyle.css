@@ -1,0 +1,107 @@
+* {
+     -moz-box-sizing: border-box; /* Firexfox */
+     -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
+     box-sizing: border-box; /* IE */
+
+}
+/* body{
+
+
+} */
+.content:before{
+  content: "";
+  position: fixed;
+  margin-top: -10%;
+  margin-left: -15%;
+  left: 1;
+  right: 1;
+  z-index: -1;
+
+  display: block;
+  background: url("images/loginbackground.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 900px;
+  width: 1400px;
+
+  -webkit-filter: blur(5px);
+  -moz-filter: blur(5px);
+  -o-filter: blur(5px);
+  -ms-filter: blur(5px);
+  filter: blur(5px);
+}
+.content{
+  /* height:600px;
+
+  width:40em; */
+  position: fixed;
+  left: 0;
+  right: 0;
+  z-index: 0;
+  margin-left: 33%;
+  margin-top: 10%;
+}
+html{
+  border-top: 8em solid white;
+  border-bottom:4em solid white;
+
+}
+h2{
+
+  margin-left: 17%;
+  font-size: 2em;
+}
+
+img{
+  border: 1px solid white;
+  border-radius: 5%;
+  height: 180px;
+  width: 190px;
+  margin-left: 25%;
+  margin-top: -10%;
+}
+ /* ===========form =========*/
+button{
+  margin-left: 26%;
+  height: 4em;
+  width: 50%;
+  font-weight: 900;
+  border-radius: 5px;
+  background: black;
+  color: white;
+}
+form{
+  border: 1px solid white;
+  height: 300px;
+  width: 15em;
+  margin-left: 23%;
+  border-radius: 5%;
+  padding: 10px;
+}
+input{
+  width: 100%;
+  height: 2em;
+  margin-top: 10%;
+  margin-bottom: 7%;
+  text-align: center;
+  font-size: 1.2em;
+  border-radius: 5%;
+}
+span{
+  margin-left: 29%;
+font-size: .9em;
+color: white;
+font-weight: 900;
+}
+ul{
+
+}
+li{
+  color: white;
+  list-style: none;
+  display: inline;
+  margin-left: 8.7%;
+  font-size: 2em;
+}
+
+/* ======== End Form ======= */
