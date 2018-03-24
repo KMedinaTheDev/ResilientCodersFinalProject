@@ -4,10 +4,59 @@
      box-sizing: border-box; /* IE */
 
 }
-/* body{
+/*  =========Header ======== */
+.logo{
+  background-image: url("../images/itsoLogoGreen.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 100px;
+  width: 30em;
+  margin-top: .5%;
+  margin-left: 25%;
+  border-radius: 5px;
 
+}
+header{
+  height: 120px;
+  width: 100%;
+border-radius: 5px;
+  /* border: 1px solid black; */
+  background-color: rgb(28,24,39);
+}
+header a{
+  color: rgba(93, 148, 97, 0.54);
+padding: 1em;
 
-} */
+}
+li{
+  display: inline-block;
+  margin-left: 5%;
+  padding: 1em;
+  font-weight: 600;
+}
+li, span, .logo{
+  float: left;
+}
+
+span, li{
+  border: 1.5px solid rgba(93, 148, 97, 0.54);
+  border-radius: 5px;
+  margin-top: 2%;
+}
+ul > li{
+  margin-left: 20%;
+}
+li + li{
+  margin-left: 2%;
+}
+.menuBars{
+  margin-left: -1%;
+  margin-top: 1%;
+  font-size: 4em;
+  border: none;
+
+}
+
 .content:before{
   content: "";
   position: fixed;
@@ -18,7 +67,6 @@
   z-index: -1;
 
   display: block;
-  background: url("images/loginbackground.jpeg");
   background-repeat: no-repeat;
   background-size: cover;
   height: 900px;
@@ -31,21 +79,20 @@
   filter: blur(5px);
 }
 .content{
-  /* height:600px;
-
-  width:40em; */
   position: fixed;
+  border-radius: 5px;
   left: 0;
   right: 0;
-  z-index: 0;
+  z-index: 1;
   margin-left: 33%;
-  margin-top: 10%;
-}
-html{
-  border-top: 8em solid white;
-  border-bottom:4em solid white;
+  margin-top: 1%;
+  padding: 2em;
+  width: 30%;
+  background-color: rgba(93, 148, 97, 0.54);
+  box-shadow: 12px 12px 2px 1px rgba(0, 0, 255, .2);
 
 }
+
 h2{
 
   margin-left: 17%;
@@ -53,7 +100,7 @@ h2{
 }
 
 img{
-  border: 1px solid white;
+  border: 3px solid white;
   border-radius: 5%;
   height: 180px;
   width: 190px;
@@ -67,14 +114,14 @@ button{
   width: 50%;
   font-weight: 900;
   border-radius: 5px;
-  background: black;
+  background-color: rgb(28,24,39);
   color: white;
 }
 form{
-  border: 1px solid white;
+  border: 3px solid white;
   height: 300px;
-  width: 15em;
-  margin-left: 23%;
+  width: 20em;
+  margin-left: 20%;
   border-radius: 5%;
   padding: 10px;
 }
@@ -93,14 +140,21 @@ font-size: .9em;
 color: white;
 font-weight: 900;
 }
-ul{
-
+.loginIcon{
+  font-size: 10em;
+  color: rgb(28,24,39);
+  margin-left: 30%;
 }
-li{
+.socialmedia{
+margin-bottom: 1%;
+}
+ li i{
   color: white;
   list-style: none;
-  display: inline;
+  display: inline-block;
+  float: left;
   margin-left: 8.7%;
+  margin-bottom: 1%;
   font-size: 2em;
 }
 

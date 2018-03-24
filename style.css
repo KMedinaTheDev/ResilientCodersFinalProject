@@ -1,13 +1,11 @@
+@import url('https://fonts.googleapis.com/css?family=Six+Caps');
 * {
      -moz-box-sizing: border-box; /* Firexfox */
      -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
      box-sizing: border-box; /* IE */
-
 }
 body{
-  background: url("images/underbridge.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
+
 
 }
 html{
@@ -17,12 +15,17 @@ html{
 
 h1{
   float: left;
-  font-size: 7em;
-  width:25%;
+  font-size: 9em;
+  font-family: 'Six Caps', sans-serif;
+  padding: 5px;
+  width:28%;
   margin-left: 1%;
   margin-top: 5%;
   text-decoration: underline;
-  border-bottom: 1px solid white;
+  box-shadow: 2px 5px rgba(124, 124, 124, 0.69), -1em -.3em 1em rgba(232, 219, 220, 0.78);
+  /* border: 1.5px solid rgb(8, 56, 148); */
+  border-radius: 5px;
+  background-color: rgba(173, 184, 175, 0.58);
 }
 h5{
   float: left;
@@ -30,7 +33,10 @@ h5{
   font-weight: bold;
   margin-left: 47%;
   margin-top: 6%;
+  border-bottom: 1px solid white;
   color:rgb(217, 5, 5);
+  background-color: rgba(173, 184, 175, 0.58);
+
 }
 
 img{
@@ -38,25 +44,46 @@ img{
   float: left;
   border-radius: 5%;
 }
+span{
+  margin-top: -20%;
+
+}
  a{
    margin-left: 9%;
   font-size: 5em;
   color: rgba(42, 45, 42, 0.66);
 }
+.btm{
+  height: 100px;
+  width: 100px;
+  margin-top: -3%;
+  margin-left: 32%;
+}
 
-
+.section1{
+  background: url("images/underbridge.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.section2{
+  background-color: black;
+  border: 1px solid white;
+  border-radius: 5px;
+  height: 500px;
+  width: auto;
+}
 .top1{
-  height: 6em;
-  width: 6em;
+  height: 8em;
+  width: 8em;
   margin-top: 23%;
-  margin-left:17.7%;
+  margin-left:20.7%;
 }
 .top3{
   float: left;
   height: 15em;
   width: 15em;
-  margin-top: 20%;
-  margin-left: -2%;
+  margin-top: 23%;
+  margin-left: -5%;
 }
 
 .top2{
@@ -67,10 +94,5 @@ img{
 
 
 
-.btm{
-  height: 100px;
-  width: 100px;
-  margin-top: -3%;
-  margin-left: 32%;
   background: black;
 }

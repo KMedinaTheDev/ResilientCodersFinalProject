@@ -1,10 +1,12 @@
-![ In The Streets Of: Boston ](images/it-soLP.png)
+![ In The Streets Of: Boston ](..public/images/ITSO2.0.png)
 
 ## This Project:
 
- `Is In Progress`
+A Community Based Solution for those who are temporarily homeless.
+
+ `This App Is In Progress`
 
 
 ## Login Page
 
-[ScreenShot](images/it-so-login.png)
+![Screenshot](images/it-so-login.png)

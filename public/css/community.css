@@ -1,0 +1,102 @@
+/* =======Fonts ======= */
+@import url('https://fonts.googleapis.com/css?family=Six+Caps');
+
+@import url('https://fonts.googleapis.com/css?family=Faster+One');
+/* ========================== */
+* {
+     -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
+     -moz-box-sizing: border-box; /* Firexfox */
+     box-sizing: border-box; /* IE */
+}
+
+body{
+  background-color: rgba(112,144,167, 0.4);
+}
+/* =========Header ======== */
+.logo{
+  width: 30em;
+  height: 100px;
+  margin-top: .5%;
+  margin-left: 25%;
+
+  border-radius: 5px;
+  background-image: url("../images/itsoLogoGreen.jpg");
+  background-position: center;
+  background-size: cover;
+
+}
+header{
+  width: 100%;
+  height: 120px;
+
+border-radius: 5px;
+  /* border: 1px solid black; */
+  background-color: rgb(28,24,39);
+}
+header a{
+padding: 1em;
+
+  color: rgba(93, 148, 97, 0.54);
+
+}
+li{
+  display: inline-block;
+
+  margin-left: 5%;
+  padding: 1em;
+
+  font-weight: 600;
+}
+li, span, .logo{
+  float: left;
+}
+
+span, li{
+  margin-top: 2%;
+
+  border: 1.5px solid rgba(93, 148, 97, 0.54);
+  border-radius: 5px;
+}
+ul > li{
+  margin-left: 20%;
+}
+li + li{
+  margin-left: 2%;
+}
+.menuBars{
+  margin-top: 1%;
+  margin-left: -1%;
+
+  border: none;
+
+  font-size: 4em;
+
+}
+/* ===========columns======= */
+
+.column{
+  /* border: 1px solid black; */
+  border-radius: 5px;
+  height:auto;
+  padding: 1em;
+  width: 40%;
+  height: 500px;
+  float: left;
+  margin-top: 1em;
+  overflow-y: scroll;
+  background: rgba(111,119,161, 0.58) ;
+
+
+}
+.motivate{
+  margin-left: 5%;
+}
+.postthread{
+  margin-left: 10em;
+}
+
+.posts{
+  border: 1px solid black;
+  height: auto;
+  width: auto;
+}

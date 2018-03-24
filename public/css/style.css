@@ -1,0 +1,149 @@
+/* =======Fonts ======= */
+@import url('https://fonts.googleapis.com/css?family=Six+Caps');
+
+@import url('https://fonts.googleapis.com/css?family=Faster+One');
+/* ========================== */
+* {
+     -moz-box-sizing: border-box; /* Firexfox */
+     -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
+     box-sizing: border-box; /* IE */
+}
+/* =========Header ======== */
+.logo{
+  background-image: url("../images/itsoLogoGreen.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 100px;
+  width: 30em;
+  margin-top: .5%;
+  margin-left: 25%;
+  border-radius: 5px;
+
+}
+header{
+  height: 120px;
+  width: 100%;
+border-radius: 5px;
+  /* border: 1px solid black; */
+  background-color: rgb(28,24,39);
+}
+header a{
+  color: rgba(93, 148, 97, 0.54);
+padding: 1em;
+
+}
+li{
+  display: inline-block;
+  margin-left: 5%;
+  padding: 1em;
+  font-weight: 600;
+}
+li, span, .logo{
+  float: left;
+}
+
+span, li{
+  border: 1.5px solid rgba(93, 148, 97, 0.54);
+  border-radius: 5px;
+  margin-top: 2%;
+}
+ul > li{
+  margin-left: 20%;
+}
+li + li{
+  margin-left: 2%;
+}
+.menuBars{
+  margin-left: -1%;
+  margin-top: 1%;
+  font-size: 4em;
+  border: none;
+
+}
+
+/* ===================================================== */
+
+/*  ====Hero ====*/
+
+.hero{
+  padding: 5em;
+  height:auto;
+  width: auto;
+  background-image: url("../images/connections.png");
+  background-position: bottom;
+}
+
+.hero h1{
+    font-family: 'Faster One', cursive;
+    font-size: 4em;
+    height:200px;
+    width: auto;
+    padding: 2em 0 2em 5em;
+    margin-top: -3%;
+
+}
+.hero h2{
+  font-size: 2em;
+  margin-top: -6%;
+  padding-left: 16.5em;
+}
+
+.hero h1, .hero h2{
+  background-color: rgba(93, 148, 97, 0.54);
+    color: white;
+  border-radius: 5px;
+}
+.hero img{
+  width:12em;
+  margin-left: 43%;
+}
+.hero p{
+  padding:1em;
+  font-size: 1.5em;
+  line-height: 2em;
+  margin-top: -2%;
+}
+.successStory{
+  border: 1px solid white;
+  border-radius: 5px;
+  background: rgba(111,119,161, 0.58) ;
+  margin-top: -1%;
+}
+/*  ======================================== */
+/* ===========applicantsOfTherWeek========== */
+.applicant{
+  float: left;
+  height:auto;
+  width: 28%;
+  padding: 1em;
+  margin-left: 1%;
+  text-align: center;
+}
+.applicant1{
+  margin-left: 5%;
+}
+.applicant a{
+  color: white;
+  font-size: 2em;
+  text-align: center;
+  padding-left: 4em;
+}
+.applicant img{
+  margin: 0 1em 0 1em;
+  height: auto;
+  width: 50%;
+  border-radius: 50%;
+}
+.applicant span{
+  border: none;
+}
+
+.applicantsOfTheWeek{
+  float: left;
+  width: 90.5%;
+  border-radius: 5px;
+  padding: .5em;
+  margin-left: 5%;
+  margin-top: -4%;
+  background-color: rgba(112,144,167, 0.58);
+}

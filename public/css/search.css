@@ -1,0 +1,148 @@
+/* =======Fonts ======= */
+@import url('https://fonts.googleapis.com/css?family=Six+Caps');
+
+@import url('https://fonts.googleapis.com/css?family=Faster+One');
+/* ========================== */
+* {
+     -moz-box-sizing: border-box; /* Firexfox */
+     -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
+     box-sizing: border-box; /* IE */
+}
+/* =========Header ======== */
+.logo{
+  background-image: url("../images/itsoLogoGreen.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 100px;
+  width: 30em;
+  margin-top: .5%;
+  margin-left: 25%;
+  border-radius: 5px;
+
+}
+header{
+  height: 120px;
+  width: 100%;
+border-radius: 5px;
+  /* border: 1px solid black; */
+  background-color: rgb(28,24,39);
+}
+header a{
+  color: rgba(93, 148, 97, 0.54);
+padding: 1em;
+
+}
+li{
+  display: inline-block;
+  margin-left: 5%;
+  padding: 1em;
+  font-weight: 600;
+}
+li, span, .logo{
+  float: left;
+}
+
+span, li{
+  border: 1.5px solid rgba(93, 148, 97, 0.54);
+  border-radius: 5px;
+  margin-top: 2%;
+}
+ul > li{
+  margin-left: 20%;
+}
+li + li{
+  margin-left: 2%;
+}
+.menuBars{
+  margin-left: -1%;
+  margin-top: 1%;
+  font-size: 4em;
+  border: none;
+
+}
+
+
+/*  =====searchfield=====*/
+form{
+  border: 1px solid black;
+  width:100%;
+  height: 400px;
+  padding: 1em;
+}
+h2{
+  text-align: center;
+  float: left;
+  margin-left: 17%;
+}
+
+input{
+  /* display: block; */
+  /* float: left; */
+}
+input[type=checkbox]{
+   /* transform: scale(2.5); */
+  margin-left: .5em;
+
+}
+input[type=text]{
+  transform: scale(1.5);
+  float: left;
+  margin-left: 25%;
+  margin-top: 5%;
+  border-radius: 5px;
+}
+label{
+  /* margin-left: 10%; */
+}
+ .filter{
+   clear: both;
+  padding-top: 1em;
+  margin-left: 30%;
+}
+ .searchBtnBtn{
+   clear: both;
+   background: rgba(93, 148, 97, 0.54);
+   padding: 1em;
+   border-radius: .5em;
+    margin: 4em 0 0 -5em;
+ }
+.searchfield{
+  background-color: rgba(111,119,161, 0.58);
+  padding: 1em;
+  border-radius: 5px;
+  margin-top: 1em;
+  width: auto;
+  /* height: 900px; */
+  float: left;
+}
+.searchIcon{
+  float: left;
+  margin-top: 4%;
+  margin-left: 10%;
+  font-size: 2em;
+  color: rgb(28,24,39);
+
+}
+
+.searchSelect{
+  float: left;
+  padding: 1em;
+  width:auto;
+  /* margin: 1px solid black; */
+
+}
+
+/*  ===Profiles Result==== */
+.applicant{
+  float: left;
+  margin-left: 35%;
+  text-align: center;
+}
+.searchResults{
+  padding: 5em;
+  height:900px;
+  overflow-y: scroll;
+  width: auto;
+  background-image: url("../images/connections.png");
+  background-position: bottom;
+}
