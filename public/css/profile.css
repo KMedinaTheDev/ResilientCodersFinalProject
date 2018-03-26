@@ -1,0 +1,188 @@
+/* =======Fonts ======= */
+@import url('https://fonts.googleapis.com/css?family=Six+Caps');
+
+@import url('https://fonts.googleapis.com/css?family=Faster+One');
+/* ========================== */
+* {
+     -moz-box-sizing: border-box; /* Firexfox */
+     -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
+     box-sizing: border-box; /* IE */
+}
+/* =========Header ======== */
+.logo{
+  background-image: url("../images/itsoLogoGreen.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 100px;
+  width: 30em;
+  margin-top: .5%;
+  margin-left: 25%;
+  border-radius: 5px;
+
+}
+header{
+  height: 120px;
+  width: 100%;
+border-radius: 5px;
+  /* border: 1px solid black; */
+  background-color: rgb(28,24,39);
+}
+header a{
+  color: rgba(93, 148, 97, 0.54);
+padding: 1em;
+
+}
+li{
+  display: inline-block;
+  margin-left: 5%;
+  padding: 1em;
+  font-weight: 600;
+}
+li, span, .logo{
+  float: left;
+}
+
+span, li{
+  border: 1.5px solid rgba(93, 148, 97, 0.54);
+  border-radius: 5px;
+  margin-top: 2%;
+}
+ul > li{
+  margin-left: 20%;
+}
+li + li{
+  margin-left: 2%;
+}
+.menuBars{
+  margin-left: -1%;
+  margin-top: 1%;
+  font-size: 4em;
+  border: none;
+
+}
+
+/* ===================================================== */
+/*  ====connect ====*/
+
+.connect{
+  padding: 5em;
+  height:auto;
+  width: auto;
+  background-image: url("../images/connections.png");
+  background-position: bottom;
+}
+
+.connect button{
+  float: left;
+  margin-left: 15%;
+  margin-top: 6.5%;
+  border: 1.5px solid rgba(93, 148, 97, 0.54);
+  border-radius: 5px;
+  font-size: 1.4em;
+  font-weight: 600;
+  color: rgba(93, 148, 97, 0.54);
+  padding: 1em;
+  background-color: rgb(28,24,39);
+
+
+}
+
+.connect h1{
+    font-size: 4em;
+    height:200px;
+    width: auto;
+    padding: 2em 0 2em 10.5em;
+    margin-top: -3%;
+    margin-left: 1em;
+}
+.connect h2{
+  font-size: 2em;
+margin-top: -1%;
+margin-left: 10.5%;
+margin-right: 10.5%;
+padding: 1em 0 0 15.5em;
+
+}
+
+.connect h1, .connect h2{
+  background-color: rgba(93, 148, 97, 0.54);
+    color: white;
+  border-radius: 5px;
+}
+.connect img{
+  width:15em;
+  margin-left: 40%;
+  border-radius: 50%;
+  margin-top: -5%;
+}
+.connect li{
+  display: inline-block;
+  border-radius: 5px;
+}
+.connect ol{
+  border: 1px solid black;
+  /* height: auto; */
+  margin-left: 40%;
+  width: 20%;
+  font-size: 1em;
+}
+.gameplan h1{
+  margin-left: 43%;
+}
+.gameplan h2{
+  margin-left: 41%;
+}
+.locations{
+  background-color:rgba(28,24,39, 0.54);
+  height: auto;
+  width: 90%;
+}
+
+/* ====story === */
+.story{
+  padding: 1em 2em .5em 2em;
+  border: 1px solid white;
+  border-radius: 5px;
+  background: rgba(111,119,161, 0.58) ;
+  margin: 8% 5% 0 5%;
+
+}
+.story h1{
+  margin-left: 45%;
+}
+/*  ======================================== */
+/*  ===  Game Plan === */
+
+.gameplan{
+  float: left;
+  text-align: center;
+  width: 90.5%;
+  border-radius: 5px;
+  padding: .5em;
+  margin-left: 5%;
+  margin-top: 1%;
+  background-color: rgba(112,144,167, 0.58);
+}
+.gameplan h1{
+  margin-left: -3%;
+}
+/* ====Asks ==== */
+
+.asks{
+  text-align: center;
+}
+.asks h2{
+  margin-top: -2.5%;
+}
+.asksSeperator{
+  float: left;
+  height:300px;
+  width: .5em;
+  background: white;
+  border:1px solid white;
+  margin-left: 3.5%;
+  border-radius:35%;
+}
+.steps h2{
+  margin-left: -60%;
+}

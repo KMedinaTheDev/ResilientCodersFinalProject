@@ -1,4 +1,4 @@
-![ In The Streets Of: Boston ](../public/images/ITSO2.png)
+![ In The Streets Of: Boston ](https://github.com/KMedinaTheDev/ResilientCodersFinalProject/blob/master/public/images/ITS02.png)
 
 ## This Project:
 
